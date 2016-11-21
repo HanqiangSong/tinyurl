@@ -1,6 +1,6 @@
 var longToShortHash = {};
 var shortToLongHash = {};
-
+//arr to convert
 var encode = [];
 var genCharArray = function (charA, charZ) {
     var arr = [];
