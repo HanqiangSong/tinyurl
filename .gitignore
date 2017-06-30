@@ -1,0 +1,6 @@
+.idea/*
+target/
+*.iml
+week3/app/node_modules/
+.DS_Store
+week2/node_modules/

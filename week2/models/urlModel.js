@@ -1,3 +1,11 @@
-/**
- * Created by HanqiangSong on 16/11/21.
- */
+var mongoose = require("mongoose");
+var Schema = mongoose.Schema;
+
+var UrlSchema = new Schema({
+    shortUrl: String,
+    longUrl: String
+});
+
+var urlModel = mongoose.model("UrlMode",UrlSchema);
+
+module.exports = urlModel;
